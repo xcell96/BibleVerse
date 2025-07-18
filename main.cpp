@@ -14,5 +14,5 @@ int main() {
     InputParser passage(input);
     const TextFetcher text_fetcher(passage.getBible(), passage.getPassageStart(), passage.getPassageEnd());
 
-    std::cout << text_fetcher.fetch();
+    std::cout << text_fetcher.fetch() << '\n';
 }
